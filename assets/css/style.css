@@ -1,0 +1,653 @@
+
+/* hero stylling start */
+.hero{
+    background-image: url('../images/hero\ bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-bottom: 100px;
+}
+
+.container1{
+    max-width: 1150px;
+    margin: auto;
+    padding: 0px 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.logo img{
+    height: 45px;
+    width: auto;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    padding: 8px 16px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu ul li .btn-menu{
+    padding: 8px 25px;
+    border-radius: 50px;
+    border: 1px solid #5584ff;
+    background: transparent;
+    color:  #5584ff;
+    margin-left: 10px;
+}
+
+
+.banner{
+    text-align: center;
+    
+}
+
+
+.banner-bottom{
+    height: 365px;
+    position: relative;
+    
+}
+
+.banner-bottom img{
+    display: block;
+    height: 450px;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -75px;
+    margin: auto;
+}
+
+.banner h1{
+    font-size: 45px;
+    font-weight: 200;
+    color: white;
+    padding-top: 40px;
+}
+.banner h3{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    padding-top: 5px;
+}
+
+.banner a{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 35px;
+    border-radius: 50px;
+    background-color: #5584ff;
+    color:  #fff;
+    margin: 50px 0px 20px 0px;
+}
+
+
+/* hero stylling stop */
+
+
+/* services stylling start */
+.services{
+    padding: 90px 0px;
+}
+
+.container2{
+    max-width: 950px;
+    margin: auto;
+    padding: 0px 0px;
+}
+
+
+.services-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.services-item{
+    flex-basis: 30%;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.services-item div{
+    height: 1px;
+    background-color: #dadee7;
+    width: 50%;
+    position: absolute;
+    top: 30px;
+    left: 240px;
+    display: none;
+}
+
+.services-item img{
+    height: 60px;
+    width: 60px;
+}
+
+.services-item h3{
+    font-size: 16px;
+    padding: 30px 0px 15px 0px;
+}
+
+.services-item p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #8492af;
+}
+
+.btn-outline{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 35px;
+    border-radius: 50px;
+    border: 1px solid #dadee7;
+    color:  black;
+    margin-top: 30px;
+    
+}
+
+/* services stylling stop */
+
+
+/* browser stylling start */
+.browser{
+    margin-top: 30px;
+    background-image: url(../images/browser\ left\ img.png);
+    background-repeat: no-repeat;
+    background-position: right 0;
+}
+
+.browser .overlay{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 140px;
+    background-color: transparent;
+}
+
+.browser img{
+    display: block;
+    height: 0px;
+    width: 0px;
+    padding: 0px;
+}
+
+.browser-left{
+    width: 50%;
+}
+
+.browser-left h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.browser-left p{
+    font-size: 14px;
+    line-height: 24px;
+    padding: 30px 0px 25px 0px;
+    color: #8492af;
+}
+
+.browser-left p span{
+    display: block;
+    padding-top: 20px;
+}
+
+
+.browser-left ul li{
+    font-size: 16px;
+    line-height: 40px;
+    color: #5886ff;
+}
+
+.browser-left ul li i{
+    margin-right: 10px;
+}
+
+
+/* browser stylling stop */
+
+
+
+/* drag and drop section stylling start */
+
+.drag-and-drop{
+    padding: 100px 0px 80px 0px;
+    background-image: url('../images/drag\ and\ drop\ bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.drag-and-drop-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.drag-and-drop-left{
+    flex-basis: 50%;
+}
+
+
+
+.top-wrap{
+    display: flex;
+    
+}
+
+.top-wrap .left{
+    flex-basis: 50%;
+    display: flex;
+    padding-right: 17px;
+    justify-content: space-between;
+    
+}
+
+.top-wrap .left p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.top-wrap .left p span{
+    color:  #8492af;
+}
+
+.top-wrap .left i{
+    color:  #8492af;
+}
+
+
+.top-wrap .right{
+    flex-basis: 50%;
+    padding-left: 17px;
+}
+
+.top-wrap .right p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.top-wrap .right p span{
+    color:  #8492af;
+}
+
+
+
+
+.drag-and-drop-left img{
+    width: 100%;
+    
+}
+.drag-and-drop-right{
+    flex-basis: 40%;
+}
+
+.drag-and-drop-right h1{
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+}
+
+
+.drag-and-drop-right p{
+    font-size: 14px;
+    line-height: 24px;
+    padding: 25px 0px;
+    width: 80%;
+    color: #8492af;
+}
+
+.drag-and-drop-right p span{
+    display: block;
+    padding-top: 20px;
+}
+
+.drag-and-drop-right a{
+    display: inline-block;
+    padding: 5px 10px;
+    color:  #8492af;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid  #8492af;
+    font-size: 14px;
+    line-height: 14px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+    
+}
+
+
+
+
+/* drag and drop section stylling stop */
+
+
+/* layout section stylling start */
+
+.layout{
+    padding: 80px 0px 0px 0px;
+    
+}
+
+.layout-main-wrap{
+    position: relative;
+}
+.layout h1{
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.layout p{
+    width: 80%;
+    margin:25px auto;
+    text-align: center;
+    font-size: 14px;
+    padding: 0px;
+    line-height: 24px;
+    color: #8492af;
+}
+
+.layout img{
+    height: 450px;
+    width: auto;
+    display: block;
+    margin: 40px auto;
+}
+
+.layout-wrap{
+    display: flex;
+}
+
+.layout-left{
+    flex-basis: 50%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 200px;
+    left: 0;
+    bottom: 0;
+}
+
+.bar-wrap{
+    display: flex;
+    align-items: center;
+    
+}
+
+.bar-wrap .bar-line{
+    height: 2px;
+    flex-basis: 100%;
+    background-color: #5584ff;
+}
+
+.layout-left .border-992px{
+    height: 2px;
+    background-color: #5584ff;
+    width: 190px;
+    margin: 10px 0px;
+    float: left;
+    display: none;
+}
+.layout-right .border-992px{
+    height: 2px;
+    background-color: #5584ff;
+    width: 190px;
+    margin: 10px 0px;
+    float: right;
+    display: none;
+}
+
+.bar-wrap .bar-round{
+    height: 32px;
+    width: 33px;
+    border-radius: 50%;
+    /* box-sizing: unset; */
+    background-color: #5585ff67;
+    position: relative;
+    display: block;
+    
+}
+.bar-wrap .bar-round .bar-round-child{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    /* box-sizing: unset; */
+    background-color: #5584ff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+
+
+.layout-left h3{
+    font-size: 18px;
+    margin: 0px;
+}
+
+.layout-left p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #8492af;
+    width: 40%;
+    margin:0;
+    text-align: left;
+    padding-top: 0px;
+    
+}
+
+.layout-right{
+    flex-basis: 50%;
+    text-align: right;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 420px;
+    right: 0; 
+}
+
+
+
+.layout-right h3{
+    font-size: 18px;
+    margin: 0px;
+}
+
+.layout-right p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #8492af;
+    width: 40%;
+    margin: 0;
+    margin-left:auto;
+    text-align: right;
+    padding-top: 0px;
+}
+
+
+
+/* layout section stylling stop */
+
+
+/* pricing section stylling start */
+
+.pricing{
+    padding: 60px 0px;
+}
+
+.pricing h1{
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+
+.pricing p{
+    width: 80%;
+    margin:40px auto;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #8492af;
+}
+
+
+.pricing-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.pricing-item{
+    flex-basis: 26%;
+    text-align: center;
+    padding: 30px 25px;
+
+    margin: 0px;
+
+    -webkit-box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.18);
+-moz-box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.18);
+box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.18);
+}
+
+.pricing-item h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.pricing-item h2{
+    text-align: center;
+    font-size: 45px;  
+    padding: 20px 0px;
+}
+
+.pricing-item h2 small{
+    font-size: 30px;
+}
+
+.pricing-item h2 span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8492af;
+}
+
+.pricing-item ul li{
+    font-size: 14px;
+    line-height: 30px;
+    color: #8492af;
+}
+
+.pricing-item ul li i{
+    margin-right: 8px;
+    color: #5584ff;
+}
+
+.pricing-item ul li .red{
+    color: red;
+}
+
+.bottom-button-wrap{
+    width: 550px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.bottom-button-wrap div{
+    flex-basis: 32%;
+    height: 2px;
+    background-color: #dadee7;
+    display: block;
+}
+
+.bottom-button-wrap .btn{
+    display: block;
+    margin: 0px auto;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 35px;
+    border-radius: 80px;
+    background-color: #5584ff;
+    color:  #fff;
+}
+
+
+
+
+
+/* pricing section stylling stop */
+
+
+/*footer section stylling start */
+.footer{
+    background-color: #0e1a35;
+    padding: 25px 0px;
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.copyright p{
+    font-size: 14px;
+    color: #8492af;
+}
+
+.footer-menu ul li{
+    display: inline-block;
+}
+
+.footer-menu ul li a{
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 14px;
+    color: #8492af;
+}
+
+.footer-menu ul li div a{
+    display: inline-block;
+    padding: 15px 5px;
+    color: #8492af;
+}
+
+
+/* footer section stylling stop */
