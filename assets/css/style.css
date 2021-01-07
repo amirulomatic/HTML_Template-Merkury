@@ -27,6 +27,14 @@
     width: auto;
 }
 
+.menu{
+    display: block;
+    background: transparent;
+    padding: 0;
+    width: auto;
+    position: unset;
+}
+
 .menu ul li{
     display: inline-block;
 }
@@ -37,15 +45,36 @@
     color: #fff;
     font-size: 14px;
     font-weight: 500;
+    transition: all .2s ease-in;
+}
+
+.menu ul li a:hover{
+    color:  #5584ff;
 }
 
 .menu ul li .btn-menu{
+    display: inline-block;
     padding: 8px 25px;
     border-radius: 50px;
     border: 1px solid #5584ff;
     background: transparent;
     color:  #5584ff;
     margin-left: 10px;
+}
+
+.menu ul li .btn-menu:hover{
+    border-color: white;
+    background: white;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+.hamburger-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
 }
 
 

@@ -7,6 +7,24 @@
         padding: 0px 40px;
     }
 
+    .hamburger-menu{
+        display: block;
+    }
+
+    .menu{
+        display: none;
+        background: #0E1A35;
+        padding: 30px;
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        left: 0;
+    }
+
+    .menu ul li{
+        display: block;
+    }
+
     .banner a{
         margin: 50px 0px 0px 0px;
     }
@@ -179,6 +197,24 @@
         padding: 0px 50px;
     }
 
+    .hamburger-menu{
+        display: block;
+    }
+
+    .menu{
+        display: none;
+        background: #0E1A35;
+        padding: 30px;
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        left: 0;
+    }
+
+    .menu ul li{
+        display: block;
+    }
+
     .banner a{
         margin: 50px 0px 0px 0px;
     }
@@ -346,6 +382,22 @@
     }
     .container2{
         padding: 0px 50px;
+    }
+
+    .hamburger-menu{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+        background: transparent;
+        padding: 0;
+        width: auto;
+        position: unset;
+    }
+
+    .menu ul li{
+        display: inline-block;
     }
 
     .banner a{
@@ -516,6 +568,22 @@
     }
     .container2{
         padding: 0px 50px;
+    }
+
+    .hamburger-menu{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+        background: transparent;
+        padding: 0;
+        width: auto;
+        position: unset;
+    }
+
+    .menu ul li{
+        display: inline-block;
     }
 
     .pricing .container2{
@@ -712,6 +780,18 @@
 .logo img{
     height: 45px;
     width: auto;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+.menu{
+    display: block;
+    background: transparent;
+    padding: 0;
+    width: auto;
+    position: unset;
 }
 
 .menu ul li{
